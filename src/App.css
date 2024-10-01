@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.headerBanner {
+  text-align: center;
+  background-color:rgb(20, 112, 175);
+  color: #fff;
+}
+
+.headerComponent {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.headerComponent h2 {
+  width: 10%;
+  align-items: left;
+}
+
+.contactList {
+  display: flex;
+  width: 17%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.profileSection {
+ display: flex;
+ padding-top: calc(1vmax / 10);
+ padding-bottom: calc(1vmax / 10);
+ flex-direction: column;
+}
+
+.profile {
+  display: flex;
+ justify-content: center;
+}
+
+.profile h3 {
+  white-space: pre-wrap;
+  font-size: 200%;
+  width: 35%;
+}
+
+.profile img {
+  height: 50%;
+  width: 20%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  padding: 22px;
+}
+
+.introSection {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.introSection hr {
+  width: 20%;
+  margin: 0em;
+}
+
+.introSection p {
+  white-space: pre-wrap;
+  width: 30%;
+  font-size: 150%;
+}
