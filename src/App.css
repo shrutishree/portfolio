@@ -4,7 +4,7 @@
 
 .headerBanner {
   text-align: center;
-  background-color:rgb(20, 112, 175);
+  background-color: rgb(20, 112, 175);
   color: #fff;
 }
 
@@ -27,15 +27,15 @@
 }
 
 .profileSection {
- display: flex;
- padding-top: calc(1vmax / 10);
- padding-bottom: calc(1vmax / 10);
- flex-direction: column;
+  display: flex;
+  padding-top: calc(1vmax / 10);
+  padding-bottom: calc(1vmax / 10);
+  flex-direction: column;
 }
 
 .profile {
   display: flex;
- justify-content: center;
+  justify-content: center;
 }
 
 .profile h3 {
@@ -59,7 +59,7 @@
 }
 .introSection hr {
   width: 12%;
-  margin:  0em 0em 0em 4em;
+  margin: 0em 0em 0em 4em;
 }
 
 .introSection p {
@@ -71,4 +71,27 @@
 
 .introSection h3 {
   margin: 0rem 4rem;
+}
+
+.carousel-container {
+  margin: 30px auto;
+  width: 60%;
+  text-align: center;
+}
+
+.footerSection {
+  background-color: rgb(80, 146, 203);
+  padding: 22px;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerContact {
+  text-align: left;
+}
+
+.footerContact a {
+  color: #fff;
+  text-decoration: none;
 }
