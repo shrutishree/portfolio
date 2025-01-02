@@ -19,7 +19,11 @@
   width: 30%;
   align-items: left;
 }
-
+.carousel-container {
+  margin: 30px auto;
+  width: 60%;
+  text-align: center;
+}
 .contactList {
   display: flex;
   width: 25%;
@@ -76,14 +80,20 @@
 }
 
 .footerSection {
-  background-color: rgb(20, 112, 175);
+  background-color: rgb(80, 146, 203);
+  padding: 22px;
   color: #fff;
-  margin-top: 8%;
   display: flex;
   justify-content: space-around;
-  padding: 12px 0px;
+}
+
+.footerContact {
   text-align: left;
-  line-height: 30px;
+}
+
+.footerContact a {
+  color: #fff;
+  text-decoration: none;
 }
 
 
