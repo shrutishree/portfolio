@@ -2,10 +2,6 @@ import "./App.css";
 import React from "react";
 
 const contactList = [
-  // {
-  //   id: 1,
-  //   name: "Contact"
-  // },
   {
     id: 1,
     name: "Resume"
