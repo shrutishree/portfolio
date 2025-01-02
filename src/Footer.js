@@ -42,14 +42,13 @@ export const Footer = () => {
     <div className="footerSection">
       <div className="footerContact">
         Contact: <br />
-        <p>Phone No: 7494051543 </p>
+        <p>Phone No: +91 7494051543 </p>
         <p>Email: s7shree@gmail.com</p>
-        <p>
+        {/* <p>
           LinkedIn:
           <a href="https://www.linkedin.com/in/shruti-shree-99ab73192/" />
-        </p>
+        </p> */}
       </div>
-      <div>"You are the creator of your own destiny."</div>
       <div>Address: BTM Layout, Bangalore, Karnatka 560068</div>
     </div>
   );
