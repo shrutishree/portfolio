@@ -25,14 +25,20 @@ export const Carousel = () => {
   ];
 
   return (
-    <div className="carousel-container" style={{ width: '60%', margin: 'auto', textAlign: 'center' }}>
-      <Slider {...settings}>
-        {quotes.map((quote, index) => (
-          <div key={index} style={{ padding: '22px' }}>
-            <h3 style={{ fontSize: '1.5em', color: '#000' }}>{quote}</h3>
-          </div>
-        ))}
-      </Slider>
-    </div>
+    <>
+      <div className="carousel-container" style={{ width: '60%', margin: 'auto', textAlign: 'center' }}>
+        <Slider {...settings}>
+          {quotes.map((quote, index) => (
+            <div key={index} style={{ padding: '22px' }}>
+              <h3 style={{ fontSize: '1.5em', color: '#000' }}>{quote}</h3>
+            </div>
+          ))}
+        </Slider>
+      </div>
+      <div className='footerSection'>
+        <div>Name: Shruti Shree <br /> Contact No: +917494051543 <br /> Email: s7shree@gmail.com</div>
+        <div>Address: Banguluru, Karnataka</div>
+      </div>
+    </>
   );
 };

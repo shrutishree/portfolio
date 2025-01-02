@@ -4,7 +4,7 @@
 
 .headerBanner {
   text-align: center;
-  background-color:rgb(20, 112, 175);
+  background-color: rgb(20, 112, 175);
   color: #fff;
 }
 
@@ -12,30 +12,31 @@
   display: flex;
   justify-content: space-between;
   padding: 12px;
+  width: 95%;
 }
 
 .headerComponent h2 {
-  width: 10%;
+  width: 30%;
   align-items: left;
 }
 
 .contactList {
   display: flex;
-  width: 17%;
+  width: 25%;
   align-items: center;
   justify-content: space-evenly;
 }
 
 .profileSection {
- display: flex;
- padding-top: calc(1vmax / 10);
- padding-bottom: calc(1vmax / 10);
- flex-direction: column;
+  display: flex;
+  padding-top: calc(1vmax / 10);
+  padding-bottom: calc(1vmax / 10);
+  flex-direction: column;
 }
 
 .profile {
   display: flex;
- justify-content: center;
+  justify-content: center;
 }
 
 .profile h3 {
@@ -57,9 +58,10 @@
   align-items: baseline;
   justify-content: center;
 }
+
 .introSection hr {
   width: 12%;
-  margin:  0em 0em 0em 4em;
+  margin: 0em 0em 0em 4em;
 }
 
 .introSection p {
@@ -71,4 +73,53 @@
 
 .introSection h3 {
   margin: 0rem 4rem;
+}
+
+.footerSection {
+  background-color: rgb(20, 112, 175);
+  color: #fff;
+  margin-top: 8%;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0px;
+  text-align: left;
+  line-height: 30px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .contactList {
+    display: block !important;
+
+  }
+
+  .profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile img {
+    width: 95% !important;
+  }
+
+  .profile h3 {
+    width: 100% !important;
+  }
+
+  .introSection {
+    text-align: center;
+    align-items: center !important;
+    flex-direction: column;
+  }
+
+  .introSection hr {
+    width: 100% !important;
+    margin: 0em !important;
+  }
+
+  .introSection p {
+    width: 97% !important;
+    padding: 12px;
+  }
 }

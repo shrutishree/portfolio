@@ -2,16 +2,16 @@ import './App.css';
 import React from 'react';
 
 const contactList = [
+  // {
+  //   id: 1,
+  //   name: "Contact"
+  // },
   {
     id: 1,
-    name: "Contact"
-  },
-  {
-    id: 2,
     name: "Resume"
   },
   {
-    id: 3,
+    id: 2,
     name: "Project"
   }
 ]
@@ -39,7 +39,8 @@ export function HeaderBanner() {
       </header>
       <div className='profileSection'>
         <div className='profile'>
-          <img src="https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt='shruti' />
+        <img src="/images/Shruti.jpeg" alt='shruti' />
+          {/* <img src="https://plus.unsplash.com/premium_photo-1664474619075-644dd191935f?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aW1hZ2V8ZW58MHx8MHx8fDA%3D" alt='shruti' /> */}
           <h3>Senior Software Developer, working with one of the digital services company providing software development services.</h3>
         </div>
         <div className='introSection'>
